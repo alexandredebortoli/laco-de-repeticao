@@ -1,3 +1,6 @@
+UNIVALI -ITAJAÍ
+Algoritmos e Programacão
+
 Leia com atenção o enunciado apresentado por cada exercício, e desenvolva o algoritmo
 solicitado.
 
