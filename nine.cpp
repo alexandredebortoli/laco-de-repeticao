@@ -11,7 +11,6 @@ int main()
 
     do
     {
-        cout << "IT WORKS!" << endl;
         cout << "Digite um número: ";
         cin >> op1;
         cout << "Digite um número: ";
