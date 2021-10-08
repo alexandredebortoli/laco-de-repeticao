@@ -7,11 +7,10 @@ int main()
     setlocale(LC_ALL, "Portuguese");
     
     int input, par = 0, impar = 0;
-
-    cout << "Digite 20 valores inteiros:" << endl;
     
     for(int i = 1; i <= 20; i++)
     {
+        cout << "Digite o " << i << "o. número: ";
         cin >> input;
 
         if(input % 2 == 0)

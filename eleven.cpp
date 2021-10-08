@@ -18,7 +18,6 @@ int main()
     }
 
     cout << "Resultante da série = " << series << endl;
-    cout << "Thank you!!!" << endl;
     
     return 0;
 }

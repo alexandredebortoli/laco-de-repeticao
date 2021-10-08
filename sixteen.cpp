@@ -11,9 +11,9 @@ int main()
     cout << "Digite um número inteiro: ";
     cin >>  input;
 
-    for(int i = input; i >= 1; i--)
+    for(input; input >= 1; input--)
     {
-        fatorial *= i;
+        fatorial *= input;
     }
 
     cout << "O fatorial de " << input << " é " << fatorial << endl;

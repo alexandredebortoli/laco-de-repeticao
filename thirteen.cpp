@@ -8,7 +8,7 @@ int main()
 
     int input, menor;
     
-    cout << "Digite 20 números inteiros:" << endl;
+    /*cout << "Digite 20 números inteiros:" << endl;
     cin >> input;
     menor = input;
 
@@ -17,6 +17,17 @@ int main()
         cin >> input;
 
         if(input <= menor)
+            menor = input;
+    }*/
+
+    for(int i = 1; i <= 20; i++)
+    {
+        cout << "Digite o " << i << "o. número: ";
+        cin >> input;
+        if(i == 1)
+            menor = input;
+        
+        if(input < menor)
             menor = input;
     }
 

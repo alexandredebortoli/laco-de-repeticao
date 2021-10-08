@@ -6,20 +6,21 @@ int main()
 {
     setlocale(LC_ALL, "Portuguese");
     
-    int peso, maior, menor;
+    float peso, maior, menor;
 
-    cout << "Digite o peso das 25 pessoas:" << endl;
-    cin >> peso;
-    maior = peso;
-    menor = peso;
-
-    for(int i = 2; i <= 25; i++)
+    for(int i = 1; i <= 25; i++)
     {
+        cout << "Digite o " << i << "o. peso: ";
         cin >> peso;
+        if(i == 1)
+        {
+            maior = peso;
+            menor = peso;
+        }
 
         if(peso > maior)
             maior = peso;
-        else if(peso < menor)
+        if(peso < menor)
             menor = peso;
     }
 
