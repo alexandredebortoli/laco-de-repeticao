@@ -6,7 +6,7 @@ int main()
 {
     SetConsoleOutputCP(CP_UTF8);
     
-    int prev = 1, current = 1, result;
+    /*int prev = 1, current = 1, result;
 
     cout << prev << "," << current << ",";
 
@@ -20,6 +20,15 @@ int main()
 
         prev = current;
         current = result;
+    }*/
+
+    int t1 = 1, t2 = 1;
+
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << t1 << " - " << t2 << " - ";
+        t1 = t1 + t2;
+        t2 = t1 + t2;
     }
     
     return 0;
